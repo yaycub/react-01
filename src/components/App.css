@@ -35,13 +35,18 @@
   }
 }
 
+.display{
+  display: flex;
+  justify-content: center;
+  min-height: 40vh;
+  background-color: rgb(32, 35, 41);
+  padding: 1.5rem;
+}
+
 .showcase{
   display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    max-width: 1260px;
-    min-height: 40vh;
-    background-color: rgb(32, 35, 41);
-    padding: 1.5rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1260px;
 }
 
