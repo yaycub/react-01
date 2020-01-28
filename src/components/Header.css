@@ -1,6 +1,6 @@
 .Header {
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
 
   nav ul {
     display: flex;
@@ -23,11 +23,15 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 60rem;
+    align-items: center;
+    height: 40vh;
+    width: 47rem;
     margin: auto;
+    line-height: 2.6rem;
     h1 {
+      color: rgb(32, 35, 41);
       font-weight: 600;
-      font-size: 4rem;
+      font-size: 60px;
       text-align: center;
       text-transform: uppercase;
     }
@@ -36,11 +40,11 @@
       display: inline-block;
       padding: 0.4rem;
 
-      background-color: rgb(51, 51, 51);
+      background-color: rgb(32, 35, 41);
       color: rgb(255, 152, 0);
 
       font-weight: 600;
-      font-size: 1.8rem;
+      font-size: 30px;
       text-align: center;
       text-transform: uppercase;
     }
