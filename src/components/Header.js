@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import styles from './Header.css';
 
 export default class Header extends Component {
-  static propTypes = {
-    styles: PropTypes.object
-  }
-  
   render(){
-    const { styles } = this.props;
     return (
       <header className={styles.Header}>
         <nav>
