@@ -16,7 +16,7 @@ import stacyImg from '../assets/stacy.jpeg';
 const App = () => (
   < >
     <Header />
-    <section>
+    <section className={styles.showcase}>
       <Character  name="Alan Rails" image={alanImg} status="Dead" species="Human, Superhuman (Ghost trains summoner)" gender="Male" origin="unkown" lastLoc="Worldender's lair"/>
 
       <Character name="Baby Legs" image={babyImg} status="Alive" species="Human, Human with baby legs" gender="Male" origin="unknown" lastLoc="Interdimensional Cable" />
