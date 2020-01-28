@@ -1,14 +1,8 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import styles from './App.css';
 
 export default class Footer extends Component {
-  static propTypes = {
-    styles: PropTypes.object
-  }
-
   render() {
-    const { styles } = this.props;
-
     return (
       <footer className={styles.Footer}>
         <section className={styles.stats}>

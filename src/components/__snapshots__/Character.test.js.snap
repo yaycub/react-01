@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character Component renders Character 1`] = `
+<article
+  className="characterCard"
+>
+  <div
+    className="cardHeader"
+  >
+    <img
+      className="charImg"
+      src="image.jpeg"
+    />
+    <h2
+      className="charName"
+    >
+      Alan Rails
+    </h2>
+  </div>
+  <div
+    className="cardInfo"
+  >
+    <div
+      className="stats"
+    >
+      <span
+        className="span"
+      >
+        Status
+      </span>
+      <p
+        className="pStat"
+      >
+        Dead
+      </p>
+    </div>
+    <div
+      className="stats"
+    >
+      <span
+        className="span"
+      >
+        Species
+      </span>
+      <p
+        className="pStat"
+      >
+        Human, Superhuman (Ghost trains summoner)
+      </p>
+    </div>
+    <div
+      className="stats"
+    >
+      <span
+        className="span"
+      >
+        Gender
+      </span>
+      <p
+        className="pStat"
+      >
+        Male
+      </p>
+    </div>
+    <div
+      className="stats"
+    >
+      <span
+        className="span"
+      >
+        Origin
+      </span>
+      <p
+        className="pStat"
+      >
+        unkown
+      </p>
+    </div>
+    <div
+      className="stats"
+    >
+      <span
+        className="span"
+      >
+        Last Location
+      </span>
+      <p
+        className="pStat"
+      >
+        Worldender's lair
+      </p>
+    </div>
+  </div>
+</article>
+`;
