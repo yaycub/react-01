@@ -4,80 +4,84 @@ exports[`App component renders App 1`] = `
 <Fragment>
   <Header />
   <section
-    className="showcase"
+    className="display"
   >
-    <Character
-      gender="Male"
-      image="/path/image"
-      lastLoc="Worldender's lair"
-      name="Alan Rails"
-      origin="unkown"
-      species="Human, Superhuman (Ghost trains summoner)"
-      status="Dead"
-    />
-    <Character
-      gender="Male"
-      image="/path/image"
-      lastLoc="Interdimensional Cable"
-      name="Baby Legs"
-      origin="unknown"
-      species="Human, Human with baby legs"
-      status="Alive"
-    />
-    <Character
-      gender="Male"
-      image="/path/image"
-      lastLoc="Mr. Goldenfold's dream"
-      name="Centaur"
-      origin="unknown"
-      species="Humanoid, Centaur"
-      status="Alive"
-    />
-    <Character
-      gender="Male"
-      image="/path/image"
-      lastLoc="unknown"
-      name="Garblovian"
-      origin="Glaagablaaga"
-      species="Alien, Garblovianr"
-      status="Alive"
-    />
-    <Character
-      gender="Male"
-      image="/path/image"
-      lastLoc="Purge Planet"
-      name="General Store Owner"
-      origin="Purge Planet"
-      species="Alien, Cat-Person"
-      status="Dead"
-    />
-    <Character
-      gender="Male"
-      image="/path/image"
-      lastLoc="Citadel of Ricks"
-      name="Insurance Rick"
-      origin="unknown"
-      species="Human"
-      status="unknown"
-    />
-    <Character
-      gender="Male"
-      image="/path/image"
-      lastLoc="Earth (C-500A)"
-      name="Celebrity Jerry"
-      origin="Earth (C-500A)"
-      species="Human"
-      status="Alive"
-    />
-    <Character
-      gender="Female"
-      image="/path/image"
-      lastLoc="Earth (Replacement Dimension)"
-      name="Stacy"
-      origin="Earth (Replacement Dimension)"
-      species="Human"
-      status="Alive"
-    />
+    <div
+      className="showcase"
+    >
+      <Character
+        gender="Male"
+        image="/path/image"
+        lastLoc="Worldender's lair"
+        name="Alan Rails"
+        origin="unkown"
+        species="Human, Superhuman (Ghost trains summoner)"
+        status="Dead"
+      />
+      <Character
+        gender="Male"
+        image="/path/image"
+        lastLoc="Interdimensional Cable"
+        name="Baby Legs"
+        origin="unknown"
+        species="Human, Human with baby legs"
+        status="Alive"
+      />
+      <Character
+        gender="Male"
+        image="/path/image"
+        lastLoc="Mr. Goldenfold's dream"
+        name="Centaur"
+        origin="unknown"
+        species="Humanoid, Centaur"
+        status="Alive"
+      />
+      <Character
+        gender="Male"
+        image="/path/image"
+        lastLoc="unknown"
+        name="Garblovian"
+        origin="Glaagablaaga"
+        species="Alien, Garblovianr"
+        status="Alive"
+      />
+      <Character
+        gender="Male"
+        image="/path/image"
+        lastLoc="Purge Planet"
+        name="General Store Owner"
+        origin="Purge Planet"
+        species="Alien, Cat-Person"
+        status="Dead"
+      />
+      <Character
+        gender="Male"
+        image="/path/image"
+        lastLoc="Citadel of Ricks"
+        name="Insurance Rick"
+        origin="unknown"
+        species="Human"
+        status="unknown"
+      />
+      <Character
+        gender="Male"
+        image="/path/image"
+        lastLoc="Earth (C-500A)"
+        name="Celebrity Jerry"
+        origin="Earth (C-500A)"
+        species="Human"
+        status="Alive"
+      />
+      <Character
+        gender="Female"
+        image="/path/image"
+        lastLoc="Earth (Replacement Dimension)"
+        name="Stacy"
+        origin="Earth (Replacement Dimension)"
+        species="Human"
+        status="Alive"
+      />
+    </div>
   </section>
   <Footer
     styles={null}
